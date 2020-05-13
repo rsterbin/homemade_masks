@@ -22,6 +22,8 @@ However, there is currently a national shortage of N95 masks.  In order to ensur
 
 If you happen to have N95 masks at home, it's a good idea to contact your local hospital to see if they need donations.  Every respirator in the hands of a health care worker helps save lives.
 
+**TODO: N95s used in construction have a filter that makes them useless for protecting others**
+
 ### Surgical masks
 
 ![surgical mask](https://lh5.googleusercontent.com/proxy/qiUArGKhBRHVDGeDhcSiaES-VuMpBVmGxe70s_8zFSvOHmkBlxUi9BxzgYgm_saznDNhLj7H3h1oGkgeXvRWpS8S-vBNc57bQxnY5NsEPOlcDDtBQs3vngssif9Vw6jq)

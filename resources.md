@@ -9,6 +9,7 @@
 * [Everything You Need To Know About Wearing Masks—Until The CDC Tells Us More, Forbes](https://www.forbes.com/sites/tarahaelle/2020/04/07/everything-you-need-to-know-about-wearing-masks-until-the-cdc-tells-us-more/#87d748b4bdb9)
 * [The do’s and don’ts of wearing a face mask correctly (and comfortably), LA Times](https://www.latimes.com/lifestyle/story/2020-04-16/tips-on-how-to-wear-a-mask-correctly)
 * [COVID-19 Face Coverings: Frequently Asked Questions, NYC DOH](https://www1.nyc.gov/assets/doh/downloads/pdf/imm/covid-19-face-covering-faq.pdf)
+* [Amid the Coronavirus Crisis, a Regimen for Reëntry](https://www.newyorker.com/science/medical-dispatch/amid-the-coronavirus-crisis-a-regimen-for-reentry)
 
 ## Research
 
