@@ -1,3 +1,7 @@
+---
+layout: main
+title: Mask Wearing Guidelines
+---
 # Mask Wearing Guidelines
 
 The CDC has recommended that everyone wear masks in public. What does that mean, and what do you need to know?
@@ -14,7 +18,7 @@ There are three main kinds of masks.  They provide different levels of protectio
 
 ### Respirator mask (N95)
 
-![n95 mask](https://www.blowoutmedical.com/media/catalog/product/cache/1/image/1200x1200/9df78eab33525d08d6e5fb8d27136e95/m/m/mmm1860.jpg)
+![n95 mask](./images/n95.jpg)
 
 The gold standard for masks is the respirator mask (N95).  This mask is capable of filtering out 95% of particles as small as 0.007 microns. (The novel coronavirus is 0.1 microns, which is why medical professionals use N95s to treat COVID-19 patients safely.) It fits tightly around the nose and mouth, creating a seal to prevent any unfiltered air from getting in.  N95 masks must be fit-tested to ensure that they're airtight.  Traditionally, they're considered disposable: under normal conditions, a new mask would be required for each patient encounter.
 
@@ -26,7 +30,7 @@ If you happen to have N95 masks at home, it's a good idea to contact your local 
 
 ### Surgical masks
 
-![surgical mask](https://lh5.googleusercontent.com/proxy/qiUArGKhBRHVDGeDhcSiaES-VuMpBVmGxe70s_8zFSvOHmkBlxUi9BxzgYgm_saznDNhLj7H3h1oGkgeXvRWpS8S-vBNc57bQxnY5NsEPOlcDDtBQs3vngssif9Vw6jq)
+![surgical mask](./images/surgical.png)
 
 The other kind of mask used in a medical setting is the basic surgical mask.  These masks vary in their filtering, typically block 1-micron particles, and are not tightly fitted.  They are also disposable, and should never be reused.
 
