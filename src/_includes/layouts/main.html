@@ -1,8 +1,74 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
-    <title>{{title}}</title>
+    <meta http-equiv="Content-Type" content="charset=utf-8" />
+    <meta name="description" content="Mask making and wearing guidelines from the Town of Stanton Mayor's office" />
+    <meta name="author" content="Reha Sterbin" />
+    <meta name="copyright" content="Reha Sterbin, 2020" />
+    <meta name="designed_by" content="Reha Sterbin, 2020" />
+    <meta name="rating" content="general" />
+    <meta name="robots" content="all, index, follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/styles/site.css" />
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
     </head>
     <body>
-        {{content}}
+        <header id="thin">
+            <div class="grid-container-flex">
+                <div class="grid-x grid-padding-x">
+                    <div class="logo cell large-2 medium-3 small-4 align-left">
+                        <a href="https://haywoodcountybrownsville.com/haywood-county/stanton/" target="_blank" rel="noopener noreferrer"><img src="/images/stanton-logo.png" alt="Town of Stanton" /></a>
+                    </div>
+                    <div class="title cell large-8 medium-6 small-4">
+                        <h1>Mask Guidelines</h1>
+                    </div>
+                    <div class="social cell large-2 medium-3 small-4 align-right">
+                        <ul>
+                            <li><a href="https://www.facebook.com/Stanton-Town-Hall-182084205168182/"><i class="fab fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="banner" title="Photo by Vera Davidova on Unsplash">
+            <div class="flood">
+                <h2>{{ title }}</h2>
+            </div>
+        </div>
+        <div id="nav">
+            <div class="grid-container-flex">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell">
+                        <ul class="menu align-center">
+                            <li><a href="/" title="Why you should wear a mask">Why Masks</a></li>
+                            <li><a href="/kinds-of-masks" title="The three main kinds of masks">Kinds of Masks</a></li>
+                            <li><a href="/how-to-wear" title="How to wear a mask safely">How to Wear</a></li>
+                            <li><a href="/making-masks" title="Patterns, materials, and tips for making cloth masks">Making Masks</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div class="grid-container-flex">
+                <div class="grid-x grid-padding-x" id="content">
+                    <div class="cell">
+                        {{content}}
+                    </div>
+                </div>
+                <div class="grid-x grid-padding-x" id="footer">
+                    <div class="provided cell small-12 medium-6">
+                        <p>Provided by the office of the mayor, 2020</p>
+                    </div>
+                    <div class="signature cell align-right small-12 medium-6">
+                        <img src="/images/signature.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://kit.fontawesome.com/c96a87beb8.js" crossorigin="anonymous"></script>
     </body>
 </html>
