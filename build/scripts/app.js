@@ -14,6 +14,23 @@ $(document).ready(function() {
 
 function doSizing() {
     magicNumber = $('#banner').height();
+    $('.valign-middle').each(function () {
+        var ph = $(this).parent().innerHeight(),
+            ch = $(this).innerHeight();
+        var padding = null;
+        if (ph > 0 && ch > 0) {
+            padding = Math.round((ph/2) - (ch/2)) + 'px';
+        } else {
+            padding = $(this).attr('rel');
+        }
+        $(this).css('paddingTop', padding);
+        console.log('valign-middle', {
+            el: $(this),
+            parentHeight: ph,
+            childHeight: ch,
+            padding: padding
+        });
+    });
     handleScroll();
 }
 

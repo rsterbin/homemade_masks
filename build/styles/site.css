@@ -6,7 +6,7 @@ a, a:visited, a:active, a:hover {
     text-align: center;
 }
 
-header {
+#thin {
     position: fixed;
     width: 100%;
     z-index: 10;
@@ -16,8 +16,9 @@ header {
     border-bottom: 0.025em solid #043719;
 }
 
-header .title {
+#thin .title {
     text-align: center;
+    white-space: nowrap;
 }
 
 #thin h1 {
@@ -33,21 +34,18 @@ header .title {
     height: 3rem;
 }
 
-.social ul {
-    list-style: none;
+#thin .social .social-wrapper {
     padding: 0;
     margin: 0;
     text-align: right;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
-.social ul li {
-    display: inline-block;
-    padding: 0 0.5rem;
-}
-
-#thin .social ul li {
+#thin .social .icon {
     font-size: 1.25rem;
-    line-height: 3rem;
+    padding: 0 0.5rem;
 }
 
 #banner {
@@ -72,10 +70,11 @@ body.fixed-nav #banner {
 
 #banner h2 {
     color: white;
-    line-height: 15rem;
     text-align: center;
     font-weight: bold;
     font-size: 2rem;
+    padding: 0;
+    margin: 0;
 }
 
 #nav {
