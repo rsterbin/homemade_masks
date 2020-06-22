@@ -2,6 +2,10 @@ a, a:visited, a:active, a:hover {
     color: #043719;
 }
 
+.align-center {
+    text-align: center;
+}
+
 header {
     position: fixed;
     width: 100%;
@@ -56,6 +60,10 @@ header .title {
     background-position: 50%;
 }
 
+body.fixed-nav #banner {
+    top: 6rem;
+}
+
 .flood {
     width: 100%;
     height: 100%;
@@ -78,15 +86,42 @@ header .title {
     color: #ffffff;
 }
 
-#nav.fixed {
-    position: fixed;
-    top: 3rem;
+#nav .collapsed {
+    display: none;
 }
 
-#nav .menu a {
+#nav a {
     color: #ffffff;
     font-weight: bold;
     line-height: 1.5rem;
+}
+
+body.fixed-nav #nav {
+    position: fixed;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 3em;
+    line-height: 1em;
+}
+
+body.fixed-nav #nav .collapsed {
+    display: block;
+}
+
+body.fixed-nav #nav .collapsed a {
+    display: block;
+    padding: 0.5rem 0;
+}
+
+body.fixed-nav #nav .expanded {
+    display: none;
+    background-color: rgba(4, 55, 25, 0.75);
+}
+
+body.fixed-nav #nav .expanded .cell {
+    text-align: left;
 }
 
 #main {
@@ -95,6 +130,10 @@ header .title {
     top: 18rem;
     background: #fcfcfc;
     height: 100%;
+}
+
+body.fixed-nav #main {
+    top: 21rem;
 }
 
 #content {
