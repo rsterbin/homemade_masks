@@ -1,5 +1,8 @@
 // $(document).foundation();
 
+var NAV_SETTING_KEY = 'nav-setting';
+    SETTING_FIXED = 'fixed';
+    SETTING_SCROLL = 'scroll';
 var magicNumber = 0;
 
 $(document).ready(function() {
@@ -24,40 +27,44 @@ function doSizing() {
             padding = $(this).attr('rel');
         }
         $(this).css('paddingTop', padding);
-        console.log('valign-middle', {
-            el: $(this),
-            parentHeight: ph,
-            childHeight: ch,
-            padding: padding
-        });
     });
+    if ($('body').data(NAV_SETTING_KEY) != SETTING_FIXED) {
+        $('#nav').height($('#nav .expanded').outerHeight());
+    }
     handleScroll();
 }
 
 function handleScroll(e) {
-    console.log('scrolling');
     var scrollPosition = $(this).scrollTop();
-    console.log(magicNumber);
-    console.log(scrollPosition);
-    if (scrollPosition < magicNumber) {
-        $('body').removeClass('fixed-nav');
-        $('#nav .expanded').show();
-        $('#nav .collapsed').hide();
-        setNavHeight();
-    } else {
-        $('body').addClass('fixed-nav');
-        $('#nav .expanded').hide();
-        $('#nav .collapsed').show();
-        unsetNavHeight();
+    var target = scrollPosition < magicNumber ? SETTING_SCROLL : SETTING_FIXED;
+    var current = $('body').data(NAV_SETTING_KEY);
+    if (current != target) {
+        convertNavSetting(target);
     }
 }
 
-function setNavHeight() {
-    var menu_height = $('#nav .expanded').height();
-    $('#nav').height(menu_height);
-}
-
-function unsetNavHeight() {
-    $('#nav').height('inherit');
+function convertNavSetting(setting) {
+    var $b = $('body'),
+        $n = $('#nav'),
+        $e = $n.find('.expanded'),
+        $c = $n.find('.collapsed'),
+        $m = $e.find('.menu');
+    if (setting == SETTING_FIXED) {
+        $b.addClass('fixed-nav');
+        $e.hide();
+        $c.show();
+        $m.addClass('vertical');
+        $m.removeClass('align-center');
+        $n.height('inherit');
+        $b.data(NAV_SETTING_KEY, SETTING_FIXED);
+    } else {
+        $b.removeClass('fixed-nav');
+        $e.show();
+        $c.hide();
+        $m.removeClass('vertical');
+        $m.addClass('align-center');
+        $n.height($e.outerHeight());
+        $b.data(NAV_SETTING_KEY, SETTING_SCROLL);
+    }
 }
 

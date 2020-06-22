@@ -116,7 +116,6 @@ body.fixed-nav #nav .collapsed a {
 
 body.fixed-nav #nav .expanded {
     display: none;
-    background-color: rgba(4, 55, 25, 0.75);
 }
 
 body.fixed-nav #nav .expanded .cell {
