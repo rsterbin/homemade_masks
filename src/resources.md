@@ -13,6 +13,7 @@ title: Resources
 * [The do’s and don’ts of wearing a face mask correctly (and comfortably)](https://www.latimes.com/lifestyle/story/2020-04-16/tips-on-how-to-wear-a-mask-correctly) &mdash; <small>Lisa Boone, LA Times, *April 16, 2020*</small>
 * [COVID-19 Face Coverings: Frequently Asked Questions](https://www1.nyc.gov/assets/doh/downloads/pdf/imm/covid-19-face-covering-faq.pdf) &mdash; <small>NYC Department of Health, *accessed April 27, 2020*</small>
 * [Amid the Coronavirus Crisis, a Regimen for Reëntry](https://www.newyorker.com/science/medical-dispatch/amid-the-coronavirus-crisis-a-regimen-for-reentry) &mdash; <small>Atul Gawande, New Yorker, *May 13, 2020*</small>
+* [What To Look For In A Face Mask, According To Science](https://fivethirtyeight.com/features/what-to-look-for-in-a-face-mask-according-to-science/) &mdash; <small>Kaleigh Rogers, Five Thirty Eight, *June 24, 2020*</small>
 
 ### Research
 
