@@ -29,5 +29,5 @@ title: Resources
 ### Misc
 
 * [Testing four sewn mask patterns for leakage using a hospital N95 fit test](https://www.youtube.com/watch?v=DZBbkn-g-vE) &mdash; <small>Sewstine, *Apr 1, 2020*</small>
-* [Doctor's Note: Do masks protect us from coronavirus?](https://www.aljazeera.com/indepth/features/doctor-note-masks-protect-coronavirus-200419070105671.html) &mdash; <small>AUTHOR, Al Jazeera, *DATE*</small>
+* [Doctor's Note: Do masks protect us from coronavirus?](https://www.aljazeera.com/indepth/features/doctor-note-masks-protect-coronavirus-200419070105671.html) &mdash; <small>Dr. Sara Kayat, Al Jazeera, *Apr 19, 2020*</small>
 
