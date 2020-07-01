@@ -1,6 +1,9 @@
 ---
 layout: main
 title: Kinds of Masks
+back_link: /
+next_link: /how-to-wear
+show_resources: true
 ---
 
 There are three main kinds of masks.  They provide different levels of protection and are recommended for use in different contexts.

@@ -161,6 +161,20 @@ body.fixed-nav #main {
     margin: 0;
 }
 
+#bottom-nav {
+    border-top: 0.025em solid #043719;
+    padding: 0.5em 0.5em 0.5em 0;
+    margin-top: 0.5em;
+}
+
+#bottom_nav .next-link {
+    text-align: right;
+}
+
+#bottom_nav .resources-link {
+    text-align: center;
+}
+
 #footer {
     margin-top: 2rem;
     background-color: #043719;

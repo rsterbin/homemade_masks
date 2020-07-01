@@ -1,6 +1,9 @@
 ---
 layout: main
 title: How to Wear a Mask
+back_link: /kinds-of-masks
+next_link: /making-masks
+show_resources: true
 ---
 
 The most important thing to remember while wearing a mask is that it's an extra layer of protection, not a replacement for any precautions you were already taking!  You should still wash your hands frequently, keep at least six feet apart from anyone who isn't a member of your household, and avoid touching your face as much as possible.

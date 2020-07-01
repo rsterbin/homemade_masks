@@ -1,6 +1,8 @@
 ---
 layout: main
 title: Mask Wearing Guidelines
+next_link: /kinds-of-masks
+show_resources: true
 ---
 
 The CDC has recommended that everyone wear masks in public. What does that mean, and what do you need to know?
@@ -34,8 +36,4 @@ There's also the purely mechanical aspect: you're less likely to transfer the vi
 ### Convince others!
 
 Hopefully you're convinced that you should wear a mask, and you know how best to wear one. Please also pass what you've learned on to others. The more of us are wearing masks, the safer we all are!
-
----
-
-> [Resources](/resources)
 

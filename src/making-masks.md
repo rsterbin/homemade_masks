@@ -1,6 +1,8 @@
 ---
 layout: main
 title: Making Masks
+back_link: /how-to-wear
+show_resources: true
 ---
 
 There are a lot of face mask patterns and tutorials around online. How do you know which one is best?

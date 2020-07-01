@@ -66,6 +66,27 @@
                     <div class="grid-x grid-padding-x" id="content">
                         <div class="cell">
                             {{content}}
+                            <div class="grid-container-flex" id="bottom_nav">
+                                <div class="grid-x grid-padding-x">
+                                    {% if back_link or next_link %}
+                                    <div class="cell small-6 back-link">
+                                        {% if back_link %}
+                                        <a href="{{back_link}}"><i class="fas fa-arrow-left"></i>&nbsp;Back</a>
+                                        {% endif %}
+                                    </div>
+                                    <div class="cell small-6 next-link">
+                                        {% if next_link %}
+                                        <a href="{{next_link}}">Next&nbsp;<i class="fas fa-arrow-right"></i></a>
+                                        {% endif %}
+                                    </div>
+                                    {% endif %}
+                                    {% if show_resources %}
+                                    <div class="cell small-12 resources-link">
+                                        <a href="/resources">Resources</a>
+                                    </div>
+                                    {% endif %}
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="grid-x grid-padding-x" id="footer">
